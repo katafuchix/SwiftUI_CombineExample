@@ -9,14 +9,23 @@ import SwiftUI
 
 
 enum Content: String, CaseIterable, Identifiable {
-    case passthroughSubjectExampleView = "PassthroughSubjectExampleView"
+    case publisherAndSubjectView = "Publisher And Subject"
+    case publishSubjectExampleView = "CurrentValueSubject Example"
+    case passthroughSubjectExampleView = "PassthroughSubject Example"
+    case passthroughSubjectFailureExample = "PassthroughSubject Failure Example"
     
     var id: String { rawValue }
     
     var view: AnyView {
         switch self {
+        case .publisherAndSubjectView:
+            return AnyView(PublisherAndSubjectView())
+        case .publishSubjectExampleView:
+            return AnyView(PublishSubjectExampleView())
         case .passthroughSubjectExampleView:
             return AnyView(PassthroughSubjectExampleView())
+        case .passthroughSubjectFailureExample:
+            return AnyView(PassthroughSubjectFailureExampleView())
         }
     }
 }
