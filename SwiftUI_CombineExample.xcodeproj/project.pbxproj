@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		31272E702A2124CB00CFE49B /* PeopleViewModelExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31272E6F2A2124CB00CFE49B /* PeopleViewModelExampleView.swift */; };
+		31272E722A21283D00CFE49B /* GithubSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31272E712A21283D00CFE49B /* GithubSearchView.swift */; };
 		3171551C2A0B301D0082CA33 /* SwiftUI_CombineExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3171551B2A0B301D0082CA33 /* SwiftUI_CombineExampleApp.swift */; };
 		3171551E2A0B301D0082CA33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3171551D2A0B301D0082CA33 /* ContentView.swift */; };
 		317155202A0B301D0082CA33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3171551F2A0B301D0082CA33 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		31272E6F2A2124CB00CFE49B /* PeopleViewModelExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewModelExampleView.swift; sourceTree = "<group>"; };
+		31272E712A21283D00CFE49B /* GithubSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubSearchView.swift; sourceTree = "<group>"; };
 		317155182A0B301D0082CA33 /* SwiftUI_CombineExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_CombineExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3171551B2A0B301D0082CA33 /* SwiftUI_CombineExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_CombineExampleApp.swift; sourceTree = "<group>"; };
 		3171551D2A0B301D0082CA33 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				3171552F2A0B3CEA0082CA33 /* PassthroughSubjectFailureExampleView.swift */,
 				31BC28CC2A0B5E9F002294B7 /* AssignExampleView.swift */,
 				31272E6F2A2124CB00CFE49B /* PeopleViewModelExampleView.swift */,
+				31272E712A21283D00CFE49B /* GithubSearchView.swift */,
 				3171551F2A0B301D0082CA33 /* Assets.xcassets */,
 				317155212A0B301D0082CA33 /* Preview Content */,
 			);
@@ -157,6 +160,7 @@
 			files = (
 				317155302A0B3CEA0082CA33 /* PassthroughSubjectFailureExampleView.swift in Sources */,
 				3171552C2A0B36420082CA33 /* PublisherAndSubjectView.swift in Sources */,
+				31272E722A21283D00CFE49B /* GithubSearchView.swift in Sources */,
 				3171552A2A0B30B90082CA33 /* PassthroughSubjectExampleView.swift in Sources */,
 				31BC28CD2A0B5E9F002294B7 /* AssignExampleView.swift in Sources */,
 				3171551E2A0B301D0082CA33 /* ContentView.swift in Sources */,
