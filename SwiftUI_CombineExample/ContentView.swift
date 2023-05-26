@@ -14,6 +14,7 @@ enum Content: String, CaseIterable, Identifiable {
     case passthroughSubjectExampleView = "PassthroughSubject Example"
     case passthroughSubjectFailureExample = "PassthroughSubject Failure Example"
     case assignExampleView = "AssignExampleView"
+    case peopleViewModelExampleView = "PeopleViewModelExampleView"
     
     var id: String { rawValue }
     
@@ -29,6 +30,8 @@ enum Content: String, CaseIterable, Identifiable {
             return AnyView(PassthroughSubjectFailureExampleView())
         case .assignExampleView:
             return AnyView(AssignExampleView())
+        case .peopleViewModelExampleView:
+            return AnyView(PeopleViewModelExampleView())
         }
     }
 }
