@@ -16,6 +16,8 @@ enum Content: String, CaseIterable, Identifiable {
     case assignExampleView = "AssignExampleView"
     case peopleViewModelExampleView = "PeopleViewModelExampleView"
     case githubSearchView = "GithubSearchView"
+    case buttonTapView = "ButtonTapView"
+    case validationExampleView = "ValidationExampleView"
     
     var id: String { rawValue }
     
@@ -35,6 +37,10 @@ enum Content: String, CaseIterable, Identifiable {
             return AnyView(PeopleViewModelExampleView())
         case .githubSearchView:
             return AnyView(GithubSearchView())
+        case .buttonTapView:
+            return AnyView(ButtonTapView())
+        case .validationExampleView:
+            return AnyView(ValidationExampleView())
         }
     }
 }
